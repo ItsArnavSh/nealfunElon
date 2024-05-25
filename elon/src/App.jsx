@@ -56,6 +56,8 @@ export default function App() {
         {bill}
         <p className='text-xl money p-5'>Total: ${add}</p>
       </div>
+      <p className = "text-white">(Based on Neal.fun 's Spend Bill Gate's Money)</p>
+      <a href = "https://neal.fun/spend/" className='text-white'>Link</a>
     </div>
   );
 }

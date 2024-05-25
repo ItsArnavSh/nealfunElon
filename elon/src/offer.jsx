@@ -39,10 +39,9 @@ export default function Offer({name="Twitter",price = 0,image = "https://cdn1.ic
 {
     let x = {
         name: "X",
-        id: 27,
         image: "https://i.pinimg.com/originals/8e/72/f7/8e72f7331b652b842b0c271ab144d332.png"
     }
-    if(count>1 && index==26)
+    if(count>=1 && index==26)
         {
             name = x.name;
             image = x.image;
